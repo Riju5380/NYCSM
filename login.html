@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | NYCSM — National Youth Computer Saksharta Mission</title>
+  <meta name="description" content="NYCSM login page for students and ATP centres. Access your registration portal using your official credentials." />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <div class="topbar-left">
+      <span>info@nycsmindia.org • +91 9477173042 / +91 6291017418</span>
+    </div>
+    <div class="topbar-right">
+      <button class="social-toggle" aria-expanded="false" aria-label="Toggle social links" title="More Social Links">⋯</button>
+      <a href="https://www.youtube.com/channel/UCVd1-xH7dP5QEBYEIysSFoA" target="_blank" class="social-button youtube-link" title="YouTube"><span class="yt-label">YouTube</span><span class="yt-icon">📷</span></a>
+      <div class="social-menu" aria-label="Social media links">
+        <a href="https://www.facebook.com/www.nycsmindia.org" target="_blank">Facebook</a>
+        <a href="https://x.com/YouthSaksharta" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/nycsm1/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/nycsm-nycsm-b38435166/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="main-logo.png" alt="NYCSM logo" class="nav-logo-mark">
+      <div class="nav-logo-text">
+        <strong>NYCSM</strong>
+        <span>National Youth Computer Saksharta Mission</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="courses.html">Academics</a></li>
+      <li><a href="apt.html">ATP</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="register.html" class="nav-cta">Register</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="min-height: 420px; background: linear-gradient(145deg, #103d78, #275f9d);">
+    <div class="hero-content" style="color: white; padding: 120px 5vw 60px; max-width: 760px;">
+      <div class="hero-badge" style="background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2);">Login Portal</div>
+      <h1 style="font-size: clamp(2.5rem, 4vw, 4rem); margin: 24px 0 20px;">Access Your NYCSM Account<br><em>Student & ATP Centre Login</em></h1>
+      <p style="font-size: 1rem; max-width: 720px; color: rgba(255,255,255,0.82); line-height: 1.8; margin-bottom: 28px;">Use your registration credentials to log in and manage student verification, centre updates, and training partner activities.</p>
+      <a href="index.html" class="btn-secondary">Back to Home</a>
+    </div>
+  </section>
+
+  <section class="recognition" style="padding-top: 60px;">
+    <div class="section-label">Student & Centre</div>
+    <h2 class="section-title">Login to Your NYCSM Portal</h2>
+    <p class="section-sub">Choose the correct login flow for your role and continue with your registration credentials.</p>
+    <div class="auth-grid" style="margin-top: 32px;">
+      <div class="auth-card">
+        <h3>Student / Applicant Login</h3>
+        <form class="auth-form" action="mailto:info@nycsmindia.org" method="post" enctype="text/plain">
+          <div class="form-control"><label>Registration Number</label><input name="Registration Number" type="text" placeholder="Enter registration no." required></div>
+          <div class="form-control"><label>Email Address</label><input name="Email" type="email" placeholder="Your registration email" required></div>
+          <div class="form-control"><label>Password</label><input name="Password" type="password" placeholder="Password" required></div>
+          <button type="submit">Student Login</button>
+        </form>
+        <p class="auth-note">If you do not have login details yet, please complete the <a href="register.html" style="color:white;text-decoration:underline;">registration form</a>.</p>
+      </div>
+      <div class="auth-card">
+        <h3>ATP Centre Login</h3>
+        <form class="auth-form" action="mailto:info@nycsmindia.org" method="post" enctype="text/plain">
+          <div class="form-control"><label>Centre Code / Username</label><input name="Centre Code" type="text" placeholder="Enter centre code or username" required></div>
+          <div class="form-control"><label>Password</label><input name="Password" type="password" placeholder="Password" required></div>
+          <button type="submit">Centre Login</button>
+        </form>
+        <p class="auth-note">Need help logging in? Contact <a href="mailto:info@nycsmindia.org" style="color:white;text-decoration:underline;">info@nycsmindia.org</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="main-logo.png" alt="NYCSM logo" style="width: 70px; display: block; margin-bottom: 20px;">
+      <p>Secure login support for students and ATP centres. Reach out to info@nycsmindia.org for credential assistance.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Academics</a></li>
+        <li><a href="apt.html">ATP</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@nycsmindia.org">info@nycsmindia.org</a></li>
+        <li><a href="tel:+919477173042">+91 9477173042</a></li>
+        <li><a href="tel:+916291017418">+91 6291017418</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 NYCSM. All rights reserved.</span>
+    <span>Online portal access and student support.</span>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

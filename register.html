@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | NYCSM — National Youth Computer Saksharta Mission</title>
+  <meta name="description" content="Register for student admission or ATP centre authorization with NYCSM. Use the official form fields for admission, verification, and partner registration." />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <div class="topbar-left">
+      <span>info@nycsmindia.org • +91 9477173042 / +91 6291017418</span>
+    </div>
+    <div class="topbar-right">
+      <button class="social-toggle" aria-expanded="false" aria-label="Toggle social links" title="More Social Links">⋯</button>
+      <a href="https://www.youtube.com/channel/UCVd1-xH7dP5QEBYEIysSFoA" target="_blank" class="social-button youtube-link" title="YouTube"><span class="yt-label">YouTube</span><span class="yt-icon">📷</span></a>
+      <div class="social-menu" aria-label="Social media links">
+        <a href="https://www.facebook.com/www.nycsmindia.org" target="_blank">Facebook</a>
+        <a href="https://x.com/YouthSaksharta" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/nycsm1/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/nycsm-nycsm-b38435166/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="main-logo.png" alt="NYCSM logo" class="nav-logo-mark">
+      <div class="nav-logo-text">
+        <strong>NYCSM</strong>
+        <span>National Youth Computer Saksharta Mission</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="courses.html">Academics</a></li>
+      <li><a href="apt.html">ATP</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="login.html" class="nav-cta">Login</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="min-height: 420px; background: linear-gradient(145deg, #103d78, #275f9d);">
+    <div class="hero-content" style="color: white; padding: 120px 5vw 60px; max-width: 760px;">
+      <div class="hero-badge" style="background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2);">Admissions & Registration</div>
+      <h1 style="font-size: clamp(2.5rem, 4vw, 4rem); margin: 24px 0 20px;">Register With NYCSM<br><em>Student Admission or ATP Centre</em></h1>
+      <p style="font-size: 1rem; max-width: 720px; color: rgba(255,255,255,0.82); line-height: 1.8; margin-bottom: 28px;">Complete the official registration forms for student admission or associate training partner authorization. All submissions are sent to <strong>info@nycsmindia.org</strong>.</p>
+      <a href="index.html" class="btn-secondary">Back to Home</a>
+    </div>
+  </section>
+
+  <section class="recognition" style="padding-top: 60px;">
+    <div class="section-label">Student Admission</div>
+    <h2 class="section-title">Student Online Registration</h2>
+    <p class="section-sub">Fill in your admission details as per official NYCSM student registration requirements.</p>
+    <div class="auth-card" style="margin-top: 32px;">
+      <form class="auth-form" action="mailto:info@nycsmindia.org" method="post" enctype="text/plain">
+        <div class="form-control"><label>Course Name</label><input name="Course Name" type="text" placeholder="Course Name" required></div>
+        <div class="form-control"><label>Course Code</label><input name="Course Code" type="text" placeholder="Course Code" required></div>
+        <div class="form-control"><label>Name of Candidate</label><input name="Candidate Name" type="text" placeholder="Name as per certificate" required></div>
+        <div class="form-control"><label>Father / Guardian Name</label><input name="Guardian Name" type="text" placeholder="Father or Guardian Name" required></div>
+        <div class="form-control"><label>Mother Name</label><input name="Mother Name" type="text" placeholder="Mother's Name" required></div>
+        <div class="auth-grid">
+          <div class="form-control"><label>Date of Birth</label><input name="Date of Birth" type="date" required></div>
+          <div class="form-control"><label>Gender</label><select name="Gender" required><option value="">Select gender</option><option>Male</option><option>Female</option><option>Other</option></select></div>
+        </div>
+        <div class="auth-grid">
+          <div class="form-control"><label>Category</label><select name="Category" required><option value="">Select category</option><option>General</option><option>OBC</option><option>SC</option><option>ST</option><option>Other</option></select></div>
+          <div class="form-control"><label>Last Qualification</label><input name="Last Qualification" type="text" placeholder="Highest qualification" required></div>
+        </div>
+        <div class="form-control"><label>Enquiry Source</label><input name="Enquiry Source" type="text" placeholder="How did you hear about NYCSM?"></div>
+        <div class="form-control"><label>Personal Contact No.</label><input name="Contact Number" type="tel" placeholder="Phone Number" required></div>
+        <div class="form-control"><label>Email Id</label><input name="Email" type="email" placeholder="Email Address" required></div>
+        <div class="form-control"><label>Postal Address</label><textarea name="Postal Address" placeholder="Address, State, City" required></textarea></div>
+        <button type="submit">Submit Admission Request</button>
+      </form>
+      <p class="auth-note">After submission, NYCSM will respond to the provided email or phone number. Please keep your registration details ready.</p>
+    </div>
+  </section>
+
+  <section class="recognition" style="padding-top: 60px; background:#fff;">
+    <div class="section-label">ATP Centre</div>
+    <h2 class="section-title">ATP Centre Registration</h2>
+    <p class="section-sub">Register your training centre with NYCSM H.O. Kolkata using the official partner registration details.</p>
+    <div class="auth-card" style="margin-top: 32px;">
+      <form class="auth-form" action="mailto:info@nycsmindia.org" method="post" enctype="text/plain">
+        <div class="form-control"><label>Centre Name</label><input name="Centre Name" type="text" placeholder="Name of your centre" required></div>
+        <div class="form-control"><label>Director / Contact Person</label><input name="Director Name" type="text" placeholder="Name of founder / director" required></div>
+        <div class="auth-grid">
+          <div class="form-control"><label>Phone Number</label><input name="Centre Phone" type="tel" placeholder="Contact Number" required></div>
+          <div class="form-control"><label>Email Address</label><input name="Centre Email" type="email" placeholder="Email Address" required></div>
+        </div>
+        <div class="form-control"><label>Location Type</label><select name="Location Type" required><option value="">Select location</option><option>Own</option><option>Commercial</option><option>Rent</option><option>Lease</option></select></div>
+        <div class="form-control"><label>Centre Address</label><textarea name="Centre Address" placeholder="Address, State, City" required></textarea></div>
+        <div class="auth-grid">
+          <div class="form-control"><label>Proof Available</label><input name="Proof Available" type="text" placeholder="Address / ID / trade licence proof" required></div>
+          <div class="form-control"><label>Proposed Branch Area</label><input name="Branch Area" type="text" placeholder="Area or square footage" required></div>
+        </div>
+        <div class="form-control"><label>Registration Details</label><textarea name="Registration Notes" placeholder="Any additional details about your ATP registration"></textarea></div>
+        <button type="submit">Submit Center Registration</button>
+      </form>
+      <p class="auth-note">NYCSM accepts applications from NGOs, trusts, schools, coaching centres, partnerships and individual education firms.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="main-logo.png" alt="NYCSM logo" style="width: 70px; display: block; margin-bottom: 20px;">
+      <p>Official NYCSM registration information, student admission and ATP centre authorization support.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Academics</a></li>
+        <li><a href="apt.html">ATP</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@nycsmindia.org">info@nycsmindia.org</a></li>
+        <li><a href="tel:+919477173042">+91 9477173042</a></li>
+        <li><a href="tel:+916291017418">+91 6291017418</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 NYCSM. All rights reserved.</span>
+    <span>Admissions and partner registration support.</span>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
