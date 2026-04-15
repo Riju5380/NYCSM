@@ -1051,6 +1051,9 @@
       display: flex;
       justify-content: end;
     }
+    .hero-logo-badge{
+      display: none;
+    }
   }
 
   @media (max-width: 522px) {
